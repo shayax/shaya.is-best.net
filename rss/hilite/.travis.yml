@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "stable"
+before_script:
+  - npm install grunt-cli -g
+  - npm install bower -g
+  - bower install
+  - gem update --system
+script:
+  - grunt test
+  - grunt test-saucelabs

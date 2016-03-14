@@ -1,0 +1,7 @@
+.settings/
+.idea/
+node_modules/
+vendor/
+.project
+.buildpath
+TODO

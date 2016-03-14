@@ -1,0 +1,186 @@
+@font-face {
+    font-family: IRANSans-Medium-web;
+    src: url(../fonts/IRANSans-Medium-web.ttf);
+}
+
+@font-face {
+    font-family: IRANSans-Bold-web;
+    src: url(../fonts/IRANSans-Bold-web.ttf);
+}
+
+@font-face {
+    font-family: IRANSans-web;
+    src: url(../fonts/IRANSans-web.ttf);
+}
+
+.rss-box {
+    direction: ltr;
+    text-align: left;
+    padding: 1px 1px;
+    background-color: #ededed;
+    border: 2px dashed #a3aadc;
+ }
+
+.rss-title,
+rss-title a {
+    font-family: Tahoma, Trebuchet, Lucida, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-right: 1px;
+}
+
+.rss-item {
+    font-family: Tahoma;
+    verdana,
+    arial;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 2px 5px 2px 5px;
+}
+
+div.rtl a:link, div.ltr a:link {
+    text-decoration: none;
+    border-top: 1px groove #000000;
+    border-right: 1px groove #000000;
+    border-left: 1px groove #000000;
+    color: firebrick;
+}
+
+div.rtl a:visited, div.ltr a:visited {
+    text-decoration: none;
+    border: 0px;
+    color: #e0861e;
+}
+
+div.rtl a:hover, div.ltr a:hover {
+    text-decoration: none;
+    color: #88b;
+    border-bottom: 1px dotted #88b;
+}
+
+.rss-date {
+    font-size: 11px;
+    font-weight: normal;
+    color: #F60;
+}
+
+div.rtl .rss-box {
+    direction: rtl;
+    text-align: right;
+    border-right: 0 none;
+    border-left: 2px dashed #a3aadc;
+}
+
+div.rtl .rss-title,
+div.rtl a {
+    font-size: 14px;
+    padding-right: 3px;
+    padding-left: 1px;
+    font-family: IRANSans-Bold-web;
+}
+
+div.rtl > .rss-item {
+    padding: 2px 0px 2px 5px;
+    font-family: IRANSans-web;
+}
+
+div.rtl li {
+    font-family: IRANSans-Medium-web;
+    font-size: 14px;
+}
+
+div.rtl div.rss-box div.rss-title p a,
+div.rtl span {
+    font-family: IRANSans-Bold-web;
+}
+
+ul {
+    list-style: none;
+    padding: 0px 3px 0px 3px;
+}
+
+#left {
+    width: 50%;
+    float: left;
+}
+
+#right {
+    width: 50%;
+    float: right;
+}
+
+.rtl,
+.ltr {
+    display: inline-block;
+}
+
+div.search span,
+div.search input[name="keyword"] {
+    display: block;
+}
+
+div.search input[name="keyword"] {
+    margin-top: 4px;
+}
+
+span.highlight {
+    background: yellow;
+    color: black;
+}
+
+div.search {
+    background-color: #ededed;
+    font-family: IRANSans-web;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    direction: rtl;
+}
+
+div.bor {
+padding: 5px 5px 0 5px;
+    width: 99%;
+    text-align: center;
+}
+
+input#bar {
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 99%;
+    text-align: center;
+    
+}
+/* buttons modeled from http://www.wellstyled.com/css-inline-buttons.html 
+
+.pod-play {
+_width:12em;
+margin: 0 0.2em; padding: 0.1em 0; _padding:0;
+white-space:nowrap;
+text-decoration: none;
+vertical-align:middle;
+background: #fb6;
+color: black;
+}
+.pod-play em {
+_width:1em; _cursor:hand;
+font-style: normal;
+margin:0; padding: 0.1em 0.5em;
+background: white;
+color: #222;
+}
+.pod-play span {
+_width:1em; _cursor:hand;
+margin:0; padding: 0.1em 0.5em 0.1em 0.3em;
+}
+.pod-play:hover {
+background: #666;
+color: white;
+}
+.pod-play:hover em {
+background: black;
+color: white
+}
+
+*/

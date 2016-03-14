@@ -1,0 +1,74 @@
+/*** copyright NotePage, Inc. all rights reserved. Duplication or redistribution is strictly
+prohibited. ***/
+
+h1 {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #19456F;
+	text-decoration: none;
+	font-size: 14px;
+	font-style: normal;
+}
+h2 {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: Teal;
+	font-weight: bold;
+}
+
+p {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #2F4F4F;
+	font-weight: normal;
+}
+td {
+    direction: rtl;
+    text-align: right;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #2F4F4F;
+	font-weight: normal;
+}
+
+td .odd {
+    
+}
+
+td  .even {
+    
+}
+a:link {
+	color: #335C8E;
+	text-decoration: underline;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	font-style: normal;
+}
+a:active {
+	color: #335C8E;
+	text-decoration: underline;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	font-style: normal;
+}
+a:visited {
+	color: #335C8E;
+	text-decoration: underline;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	font-style: normal;
+}
+a:hover {
+	color: #FFFFFF;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+
+}

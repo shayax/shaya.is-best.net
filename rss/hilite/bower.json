@@ -1,0 +1,41 @@
+{
+  "name": "jmHighlight",
+  "version": "4.0.2",
+  "keywords": [
+    "jmHighlight",
+    "highlight",
+    "search",
+    "jquery",
+    "javascript",
+    "text",
+    "keyword",
+    "julmot"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/julmot/jmHighlight",
+  "authors": [
+    {
+      "name": "Julian Motz",
+      "homepage": "http://github.com/julmot"
+    }
+  ],
+  "description": "JavaScript keyword highlighting. Can be used e.g. to highlight text in search results.",
+  "main": [
+    "src/jquery.jmHighlight.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/julmot/jmHighlight.git"
+  },
+  "dependencies": {
+    "jquery": ">1.10"
+  },
+  "devDependencies": {},
+  "ignore": [
+    "*",
+    "!dist/*",
+    "!src/jquery.jmHighlight.js",
+    "!LICENSE",
+    "!README.md"
+  ]
+}
